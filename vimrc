@@ -19,3 +19,5 @@ syntax on
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
 
+command KW %s/[ ]\+$//g
+
