@@ -21,3 +21,6 @@ syntax on
 
 command KW %s/[ ]\+$//g
 
+map <C-]> :diffget <CR>
+map <C-\> :diffput <CR>
+
