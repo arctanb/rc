@@ -10,5 +10,6 @@ alias svnjunkdel="svn status --no-ignore | grep '^\?' | sed 's/^\?      //'  | x
 alias g=git
 alias v=vim
 alias go=gnome-open
+alias ..='cd ..'
 
 complete -o bashdefault -o default -o nospace -F _git g 2>/dev/null || complete -o default -o nospace -F _git g
