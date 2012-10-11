@@ -14,6 +14,8 @@ set smartcase
 
 set nowrap
 
+set colorcolumn=80
+
 syntax on
 
 :highlight ExtraWhitespace ctermbg=red guibg=red
