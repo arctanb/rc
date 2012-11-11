@@ -21,11 +21,14 @@ set colorcolumn=80
 syntax on
 :highlight Comment ctermfg=lightblue
 
+
 " whitespace
 
-:highlight ExtraWhitespace ctermbg=red guibg=red
-:match ExtraWhitespace /\s\+$/
-command KW %s/[ ]\+$//g
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set list
+":highlight ExtraWhitespace ctermbg=red guibg=red
+":match ExtraWhitespace /\s\+$/
+"command KW %s/[ ]\+$//g
 
 " word wrap
 
