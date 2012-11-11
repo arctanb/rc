@@ -28,7 +28,7 @@ set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
 ":highlight ExtraWhitespace ctermbg=red guibg=red
 ":match ExtraWhitespace /\s\+$/
-"command KW %s/[ ]\+$//g
+command KW %s/[ ]\+$//g
 
 " word wrap
 
