@@ -6,3 +6,7 @@
     df = diff
     ls = ls-files
     pl = pull --rebase
+[user]
+    name = Bryant Tan
+    email = arctanb@gmail.com
+    editor = vim
