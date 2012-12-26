@@ -11,5 +11,6 @@ alias g=git
 alias v=vim
 alias go=gnome-open
 alias ..='cd ..'
+alias tolower='ls | while read upName; do loName=`echo "${upName}" | tr "[:upper:]" "[:lower:]"`; mv "$upName" "$loName"; done'
 
 complete -o bashdefault -o default -o nospace -F _git g 2>/dev/null || complete -o default -o nospace -F _git g
