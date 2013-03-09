@@ -10,3 +10,5 @@
     name = Bryant Tan
     email = arctanb@gmail.com
     editor = vim
+[push]
+    default = current
