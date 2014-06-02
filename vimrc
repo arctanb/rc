@@ -19,7 +19,7 @@ set smartcase
 set relativenumber
 set colorcolumn=80
 syntax on
-:highlight Comment ctermfg=lightblue
+hi Comment ctermfg=5
 
 
 " whitespace
