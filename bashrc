@@ -9,7 +9,6 @@ alias svnjunk="svn status --no-ignore | grep '^\?' | sed 's/^\?      //'"
 alias svnjunkdel="svn status --no-ignore | grep '^\?' | sed 's/^\?      //'  | xargs -Ixx rm -rf xx"
 alias g=git
 alias v=vim
-alias go=gnome-open
 alias ..='cd ..'
 alias tolower='ls | while read upName; do loName=`echo "${upName}" | tr "[:upper:]" "[:lower:]"`; mv "$upName" "$loName"; done'
 alias m='make -s'
